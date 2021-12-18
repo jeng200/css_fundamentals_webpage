@@ -1,7 +1,10 @@
 body {
   margin: 0;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
+  font-family: 'Zen Antique', serif;
+  background: silver;
+  color: black;
 }
 
 img {
@@ -12,4 +15,63 @@ img {
   max-width: 950px;
   margin-left: auto;
   margin-right: auto;
+}
+
+h1, h2 {
+  font-weight: 100;
+}
+
+h1 {
+  margin: 0;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.small-txt {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.dark-txt {
+  font-weight: 900;
+  display: block;
+  color: rgb(82, 1, 82);
+}
+
+h1 .dark-txt {
+  font-size: 60px;
+}
+
+h2 .dark-txt {
+  font-size: 50px;
+}
+
+a:hover, a:focus{
+  color:rgb(82, 1, 82)
+}
+
+header {
+  background: royalblue;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+section {
+  padding: 75px 0;
+}
+
+.about-me {
+  background: rgb(26, 216, 108);
+}
+
+.articles {
+  background: rgb(76, 164, 236);
 }
