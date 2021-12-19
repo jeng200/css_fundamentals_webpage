@@ -3,12 +3,14 @@ body {
   font-size: 25px;
   text-align: center;
   font-family: 'Zen Antique', serif;
-  background: silver;
-  color: black;
+  background: rgb(1, 1, 95);
+  color: silver;
 }
 
 img {
   max-width: 500px;
+  border: solid black 1px;
+  border-radius: 25px;
 }
 
 .container {
@@ -19,31 +21,44 @@ img {
 
 h1, h2 {
   font-weight: 100;
+  margin: 0;
 }
 
 h1 {
-  margin: 0;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 50px;
+
+  padding: 20px 0;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 900;
+}
+
+.mb {
+  margin-bottom: 0;
 }
 
 .small-txt {
   font-size: 18px;
   font-weight: 300;
+  margin-top: 0;
 }
 
 .dark-txt {
   font-weight: 900;
   display: block;
-  color: rgb(82, 1, 82);
+  color: rgb(241, 46, 12);
+}
+
+.name,
+time {
+  font-weight: 900;
+  color: rgb(241, 46, 12);
 }
 
 h1 .dark-txt {
@@ -54,14 +69,22 @@ h2 .dark-txt {
   font-size: 50px;
 }
 
-a:hover, a:focus{
-  color:rgb(82, 1, 82)
+a {
+  color: whitesmoke;
+}
+
+a:hover, a:focus {
+  color:rgb(243, 35, 7)
 }
 
 header {
-  background: royalblue;
   padding-top: 50px;
   padding-bottom: 100px;
+}
+
+.red-border {
+border-top: solid red 1px;
+border-bottom: solid red 1px;
 }
 
 section {
@@ -69,9 +92,21 @@ section {
 }
 
 .about-me {
-  background: rgb(26, 216, 108);
+  background: silver;
+  color: black;
 }
 
-.articles {
-  background: rgb(76, 164, 236);
+.btn {
+  display: inline-block;
+  background: black;
+  color: whitesmoke;
+  padding: 10px 25px;
+  margin-top: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover, .btn:focus {
+  background: red;
+  color: black;
 }
